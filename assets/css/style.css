@@ -4,9 +4,9 @@
 
 /* brand color palette */
 :root {
-  --primary: rgba(68, 88, 119, 1);
-  --secondary: rgba(146, 204, 206, 1);
-  --tertiary: rgba(49, 52, 61, 1);
+  --primary: cornflowerblue;
+  --secondary: rgb(49, 124, 49);
+  --tertiary: rgb(67, 78, 109);
   --dark: rgba(28, 29, 33, 1);
   --light: rgba(238, 238, 247, 1);
 }
@@ -27,6 +27,10 @@ h4,
 h5,
 h6 {
   margin: 0;
+}
+
+img {
+  max-width: 100%;
 }
 
 p {
@@ -124,11 +128,12 @@ main {
 .page-section {
   margin: 25px 0;
   padding: 10px 0;
+  margin-left: auto;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: stretch;
   justify-content: space-between;
+  
 }
 
 .page-section > h2 {
@@ -237,7 +242,7 @@ main {
 }
 
 .surf-report {
-  background-image: url("../images/02-portfolio-4.jpg");
+  background-image: url("../images/0000658670032.jpg");
 }
 
 /* end portfolio project images */
